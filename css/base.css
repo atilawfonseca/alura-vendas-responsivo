@@ -1,0 +1,21 @@
+:root {
+    --background-color: #00030C;
+    --cor-botao-azul:  #167BF7;
+    --cor-letra-cinza: rgb(170, 170, 170);
+
+}
+
+body {
+   background-color: var(--background-color);
+   font-family: 'Inter';
+   
+}
+.botao {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 90vw;
+    color: white;
+    margin: 1rem auto;
+}
+

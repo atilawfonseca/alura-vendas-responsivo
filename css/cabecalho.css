@@ -1,0 +1,31 @@
+.cabecalho__promocoes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.cabecalho__promocoes--titulo {
+    display: none;
+}
+.cabecalho__promocoes--professores-img{
+    width: 100vw;  
+}
+.cabecalho__promocoes--combo-img {
+    width: 100vw;
+    max-width: 500px;
+}
+.cabecalho__promocoes a {
+    text-decoration: none;
+}
+.cabecalho__promocoes--botao-12x120 {
+    background-color: var(--cor-botao-azul);
+    border: 1px solid var(--cor-botao-azul);
+    font-weight: bolder;
+}
+.cabecalho__promocoes-paragrafo {
+    color: var(--cor-letra-cinza);
+    width: 90vw;
+
+}
+
