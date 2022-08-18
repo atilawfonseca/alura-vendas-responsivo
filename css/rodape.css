@@ -1,0 +1,31 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+   
+}
+
+.rodape__titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 3rem auto;
+}
+
+.rodape__links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rodape__links a {
+    text-decoration: none;
+}
+.rodape__paragrafos {
+    margin-top: 4rem;
+}
+
+.rodape__paragrafo1, .rodape__paragrafo2 {
+    width: 90vw;
+    text-align: center;
+    margin: 1rem auto;
+}
