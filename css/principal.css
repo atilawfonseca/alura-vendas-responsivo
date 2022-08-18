@@ -1,4 +1,4 @@
-.principal__vantagens {
+.principal__vantagens , .principal__dispositivos{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -6,14 +6,58 @@
     margin-top: 3rem;
     
 }
-.principal__vantagens--plataformas-titulo {
+.principal__vantagens--plataformas, .principal__vantagens--notebook{
+    text-align: center;
+    margin: 2.5rem auto;
+}
+.principal__vantagens--plataformas-titulo, .principal__vantagens--notebook-titulo, .principal__dispositivos--titulo {
     color: white;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.5rem;
+    margin: 2rem auto;
 
 }
-.principal__vantagens--plataformas-img {
+.principal__vantagens--plataformas-img, .principal__vantagens--notebook-img, .principal__vantagens--combo-img {
     width: 90vw;
+    margin: 1.5rem auto;
+    max-width: 600px;
 }
-.principal__vantagens--plataformas-texto {}
+.principal__vantagens--plataformas-texto, .principal__vantagens--notebook-texto, .principal__vantagens--combo-texto {
+    color: white;
+    width: 90%;
+    margin: 1rem auto;
+    line-height: 1.2rem;
+}
+
+.principal__vantagens--combo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.principal__vantagens--combo-botao{
+    background-color: var(--cor-botao-azul);
+    border: none;
+    text-decoration: none;
+    width: 60vw;
+}
+.principal__vantagens--combo-botao:hover {
+    background-color: var(--cor-botao-azul-pass_cima);
+}
+.principal__vantagens--combo-botao:active {
+    background-color: var(--cor-botao-azul-click);
+}
+.principal__dispositivos-texto {
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.principal__dispositivos-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90vw;  
+}
+

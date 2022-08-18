@@ -23,6 +23,14 @@
     border: 1px solid var(--cor-botao-azul);
     font-weight: bolder;
 }
+
+.cabecalho__promocoes--botao-12x120:hover {
+    background-color: var(--cor-botao-azul-pass_cima);
+}
+.cabecalho__promocoes--botao-12x120:active {
+    background-color: var(--cor-botao-azul-click);
+}
+
 .cabecalho__promocoes-paragrafo {
     color: var(--cor-letra-cinza);
     width: 90vw;
