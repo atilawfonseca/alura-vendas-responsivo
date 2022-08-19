@@ -5,6 +5,9 @@
     align-items: center;
     box-sizing: border-box;
 }
+.cabecalho__promocoes--professores-img-desktop {
+    display: none;
+}
 .cabecalho__promocoes--titulo {
     display: none;
 }
@@ -22,6 +25,7 @@
     background-color: var(--cor-botao-azul);
     border: 1px solid var(--cor-botao-azul);
     font-weight: bolder;
+    
 }
 
 .cabecalho__promocoes--botao-12x120:hover {
@@ -36,4 +40,53 @@
     width: 90vw;
 
 }
+
+@media screen and (min-width:1100px) {
+
+    .cabecalho__promocoes--professores-img-desktop {
+        display: block;
+        width: 100vw;
+        position: absolute;
+    }
+    .cabecalho {
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: top;
+       width: 100vw;
+       height: 90vh;
+       display: grid; 
+       grid-template-columns: 50% 50%;
+       position: relative;
+       align-items: center;
+       
+    }
+
+    .cabecalho__promocoes--professores-img {
+        display: none;
+    }
+
+    .cabecalho__promocoes--combo-img {
+        width: 40vw;
+        margin: 4rem auto;
+
+    }
+    .cabecalho__promocoes--botao-12x120, .cabecalho__promocoes--botao-somentalura {
+        width: 40vw;
+        max-width: 600px;
+    }
+
+    .cabecalho__promocoes--titulo {
+        color: white;
+        display: block;
+        position: relative;
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+
+}
+
+
+
+
 

@@ -61,3 +61,80 @@
     width: 90vw;  
 }
 
+@media screen and (min-width:1100px) {
+
+    .principal__vantagens {
+        margin: 0px;
+    }
+    .principal__vantagens--plataformas {
+        margin: 0px;
+    }
+    .principal__vantagens {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+    .principal__vantagens--plataformas, .principal__vantagens--notebook {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "imagem titulo"
+        "imagem texto";
+    }
+
+    .principal__vantagens--plataformas-img , .principal__vantagens--notebook-img{
+        grid-area: imagem;
+        width: 45vw;
+        max-width: 500px;
+    }
+    .principal__vantagens--plataformas-titulo, .principal__vantagens--notebook-titulo {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+    .principal__vantagens--plataformas-texto, .principal__vantagens--combo-texto, .principal__vantagens--notebook-texto {
+        font-size: 1.2rem;
+    }
+
+    .principal__vantagens--combo {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "titulo2 imagem2"
+        "texto2 imagem2";
+        
+    }
+    .principal__vantagens--combo-botao {
+        grid-area: titulo2;
+        width: 40vw;
+        max-width: 400px;
+        margin-bottom: 0px;
+
+    }
+
+    .principal__vantagens--combo-img {
+        grid-area: imagem2;
+        width: 45vw;
+        
+    }
+
+    .principal__vantagens--combo-texto {
+        margin-top: 0px;
+        grid-area: texto2;
+    }
+
+    .principal__dispositivos--titulo {
+        font-size: 2.5rem;
+    }
+
+    .principal__dispositivos--tv, .principal__dispositivos--pc, .principal__dispositivos--table-celular {
+        width: 25vw;
+    }
+    .principal__dispositivos-texto {
+        font-size: 2rem;
+    }
+    
+}
+
